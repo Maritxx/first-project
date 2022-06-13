@@ -6,9 +6,45 @@ body {
 }
 
 .container {
-	width: 100%;
-	max-width: 1440px;
-	margin: 0 auto;
+	margin: 80px auto;
+}
+
+.fourteenForty {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.twelveHundred {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tenEighty {
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.nineSixty {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.pad {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.slimpad {
+	padding-left: 8px;
+	padding-right: 8px;
 }
 
 /* Fonts*/
@@ -20,30 +56,24 @@ h1 {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 48px;
+	margin-bottom: 25px;
 }
 
 h2 {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 32px;
+	margin-bottom: 30px;
 }
 
 h3 {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 26px;
-}
-
-.c-hero__content p {
-	font-size: 18px;
-}
-
-.c-main-content {
-	font-size: 16px;
+	margin-bottom: 20px;
 }
 
 /*Homepage*/
-
 .c-hero {
 	display: flex;
 	justify-content: center;
@@ -58,14 +88,23 @@ h3 {
 .c-hero__content {
 	color: #FFF8F0;
 	text-align: center;
+	font-size: 18px;
 }
 
 .c-main-content__holder {
 	text-align: center;
+	font-size: 16px;
 }
 
 .c-icon-boxes__holder {
 	display: flex;
 	justify-content: space-around;
-	
 }
+
+.c-full-width-image {
+	height: 650px;
+	background-image: url("/img/prettydice.png");
+	background-size: cover;
+	background-position: center;
+}
+
