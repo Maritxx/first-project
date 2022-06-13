@@ -8,6 +8,7 @@ body {
 .container {
 	width: 100%;
 	max-width: 1440px;
+	margin: 0 auto;
 }
 
 /* Fonts*/
@@ -64,5 +65,7 @@ h3 {
 }
 
 .c-icon-boxes__holder {
+	display: flex;
+	justify-content: space-around;
 	
 }
