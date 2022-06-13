@@ -1,10 +1,68 @@
+/* Global styles*/ 
+body {
+	color: #11151C;
+	background-color: #FFF8F0;
+	font-family: 'Roboto', sans-serif;
+}
+
 .container {
 	width: 100%;
 	max-width: 1440px;
 }
 
+/* Fonts*/
+.c-red-text {
+	color: #9E2B25;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 48px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 32px;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 26px;
+}
+
+.c-hero__content p {
+	font-size: 18px;
+}
+
+.c-main-content {
+	font-size: 16px;
+}
+
+/*Homepage*/
+
 .c-hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 650px;
 	background-image: url("img/hero.png");
 	background-size: cover;
 	background-position: center;
+	background-color: rgba(54, 65, 86, 0.75);
+}
+
+.c-hero__content {
+	color: #FFF8F0;
+	text-align: center;
+}
+
+.c-main-content__holder {
+	text-align: center;
+}
+
+.c-icon-boxes__holder {
+	
 }
