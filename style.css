@@ -164,6 +164,10 @@ p {
 	background-color: var(--offwhite);
 	}
 
+.button a:hover {
+	background-color: var(--red);
+}
+
 .c-full-width-image {
 	height: 650px;
 	background-image: url("/img/prettydice.png");
