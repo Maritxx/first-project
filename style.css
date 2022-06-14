@@ -165,11 +165,13 @@ p {
 	background-image: url("/img/nerd1.png");
 	background-size: cover;
 	background-position: center;
+	width: 100%;
 }
 
 .c-two-column__content {
 	flex: 0 1 100%;
 	background-color: #212D40;
+	padding: 80px 60px;
 }
 
 /*Media Query bullshit?*/
