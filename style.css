@@ -131,6 +131,9 @@ p {
 .button {
 	background-color: #364156;
 	color: #FFF8F0;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 700;
 	padding: 15px 30px;
 }
 
@@ -141,10 +144,37 @@ p {
 	background-position: center;
 }
 
+.c-two-column__holder {
+	display: flex;
+	flex-wrap: wrap;
+	color: #FFF8F0;
+	font-size: 20px;
+}
+
+.c-two-column__image {
+	flex: 0 1 100%;
+	background-image: url("/img/nerd1");
+	background-size: cover;
+	background-position: center;
+}
+
+.c-two-column__content {
+	flex: 0 1 100%;
+	background-color: #212D40;
+}
 
 /*Media Query bullshit?*/
 @media screen and (min-width: 992px) {
 	.c-icon-boxes__box {
+		flex: 0 1 calc(50% - 30px);
+		margin-top: 80px;
+	}
+
+	.c-two-column-content {
+		flex: 0 1 calc(50% - 30px);
+	}
+
+	.c-two-column-content {
 		flex: 0 1 calc(50% - 30px);
 	}
 }
@@ -152,5 +182,14 @@ p {
 @media screen and (min-width: 1365px) {
 	.c-icon-boxes__box {
 		flex: 0 1 calc(33.33% - 30px);
+		margin-top: 80px;
+	}
+
+	.c-two-column-content {
+		flex: 0 1 calc(50% - 30px);
+	}
+
+	.c-two-column-content {
+		flex: 0 1 calc(50% - 30px);
 	}
 }
