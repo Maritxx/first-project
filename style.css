@@ -1,7 +1,7 @@
 /* Global styles*/ 
 body {
 	color: #11151C;
-	background-color: #FFF8F0;
+	background-color: var(--offwhite);
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -49,11 +49,11 @@ body {
 
 /* Fonts*/
 .c-red-text {
-	color: #9E2B25;
+	color: var(--red);
 }
 
 .c-white-text {
-	color: #FFF8F0;
+	color: var(--offwhite);
 }
 
 h1 {
@@ -68,7 +68,7 @@ h2 {
 	font-weight: 700;
 	font-size: 32px;
 	margin-bottom: 30px;
-	color: #364156;
+	color: var(--blue-light);
 }
 
 h3 {
@@ -84,7 +84,7 @@ p {
 
 .button a {
 	display: inline-block;
-	background-color: #364156;
+	background-color: var(--blue-light);
 	padding: 15px 30px;
 	text-decoration: none;
 }
@@ -100,7 +100,6 @@ p {
 	background-image: url("img/hero.png");
 	background-size: cover;
 	background-position: center;
-	
 }
 
 .c-hero::before {
@@ -114,7 +113,7 @@ p {
 }
 
 .c-hero__content {
-	color: #FFF8F0;
+	color: var(--offwhite);
 	text-align: center;
 	font-size: 18px;
 }
@@ -143,25 +142,26 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #364156;
-	color: #FFF8F0;
+	background-color: var(--blue-light);
+	color: var(--offwhite);
 	font-size: 130px;
 	width: 240px;
     height: 240px;
     border-radius: 50%;
+    border-style: 1px solid var(--grey);
     margin-bottom: 40px;
 }
 
 .button {
-	color: #FFF8F0;
+	color: var(--offwhite);
 	font-size: 20px;
 	font-weight: 700;
 	text-transform: uppercase;
 }	
 
 .button__white a {
-	color: #212D40;
-	background-color: #FFF8F0;
+	color: var(--blue-med);
+	background-color: var(--offwhite);
 	}
 
 .c-full-width-image {
@@ -174,7 +174,7 @@ p {
 .c-two-column__holder {
 	display: flex;
 	flex-wrap: wrap;
-	color: #FFF8F0;
+	color: var(--offwhite);
 	font-size: 20px;
 }
 
@@ -185,7 +185,7 @@ p {
 
 .c-two-column__content {
 	flex: 0 1 100%;
-	background-color: #212D40;
+	background-color: var(--blue-med);
 	padding: 80px 60px;
 }
 

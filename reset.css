@@ -2,9 +2,12 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-color: brown;
-  --secondary-color: brown;
-  --accent-color: brown;
+  --blue-dark: #11151C;
+  --blue-med: #212D40;
+  --blue-light: #364156;
+  --red: #9E2B25;
+  --offwhite: #FFF8F0;
+  --grey: #707070;
   --heading-font: "Roboto", sans-serif;
   --body-font: "Roboto", sans-serif;
 }
