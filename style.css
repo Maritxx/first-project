@@ -161,8 +161,6 @@ p {
 }
 
 .c-two-column__image {
-	flex: 0 1 100%;
-	background-image: url("/img/nerd1.png");
 	background-size: cover;
 	background-position: center;
 }
@@ -173,7 +171,18 @@ p {
 	padding: 80px 60px;
 }
 
+.c-two-column__reverse {
+	flex-direction: row-reverse;
+}
+
 /*Media Query bullshit?*/
+@media screen and (max-width: 991px) {
+	.c-two-column__image {
+		flex: 0 1 100%;
+		padding-top: 50%;
+	}
+}
+
 @media screen and (min-width: 992px) {
 	.c-icon-boxes__box {
 		flex: 0 1 calc(50% - 30px);
