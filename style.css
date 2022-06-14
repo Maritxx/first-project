@@ -52,6 +52,10 @@ body {
 	color: #9E2B25;
 }
 
+.c-white-text {
+	color: #FFF8F0;
+}
+
 h1 {
 	text-transform: uppercase;
 	font-weight: 700;
@@ -77,6 +81,13 @@ h3 {
 p {
 	margin-bottom: 20px;
 }
+
+.button a {
+	display: inline-block;
+	background-color: #364156;
+	padding: 15px 30px;
+}
+
 
 /*Homepage*/
 .c-hero {
@@ -129,13 +140,11 @@ p {
 }
 
 .button {
-	background-color: #364156;
 	color: #FFF8F0;
 	font-size: 20px;
 	font-weight: 700;
-	padding: 15px 30px;
-	width: auto;
-}
+	text-transform: uppercase;
+}	
 
 .c-full-width-image {
 	height: 650px;
@@ -153,7 +162,7 @@ p {
 
 .c-two-column__image {
 	flex: 0 1 100%;
-	background-image: url("/img/nerd1");
+	background-image: url("/img/nerd1.png");
 	background-size: cover;
 	background-position: center;
 }
