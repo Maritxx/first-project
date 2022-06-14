@@ -183,7 +183,7 @@ p {
 		flex: 0 1 calc(50% - 30px);
 	}
 
-	.c-two-column-content {
+	.c-two-column__image {
 		flex: 0 1 calc(50% - 30px);
 	}
 }
@@ -198,7 +198,7 @@ p {
 		flex: 0 1 calc(50% - 30px);
 	}
 
-	.c-two-column-content {
+	.c-two-column__image {
 		flex: 0 1 calc(50% - 30px);
 	}
 }
