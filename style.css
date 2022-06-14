@@ -64,6 +64,7 @@ h2 {
 	font-weight: 700;
 	font-size: 32px;
 	margin-bottom: 30px;
+	color: #364156;
 }
 
 h3 {
@@ -99,6 +100,20 @@ h3 {
 .c-icon-boxes__holder {
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.c-icon-boxes__box {
+	flex: 0 1 33.3%;
+}
+
+.c-icon-boxes__icon {
+	background-color: #364156;
+	color: #FFF8F0;
+	width: 240px;
+    height: 240px;
+    border-radius: 50%;
+
 }
 
 .c-full-width-image {
