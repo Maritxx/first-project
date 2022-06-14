@@ -1,6 +1,6 @@
 /* Global styles*/ 
 body {
-	color: #11151C;
+	color: var(--blue-dark);
 	background-color: var(--offwhite);
 	font-family: 'Roboto', sans-serif;
 }
@@ -196,6 +196,14 @@ p {
 .c-two-column__reverse {
 	flex-direction: row-reverse;
 }
+
+/*Header*/
+.c-site-header__holder {
+	display: flex;
+	flex-wrap: wrap;
+	color: var(--blue-light);
+}
+/*Figure out dropdown menu + sizing for containers*/
 
 /*Media Query bullshit?*/
 @media screen and (max-width: 991px) {
