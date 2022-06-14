@@ -103,6 +103,13 @@ h3 {
 	flex-wrap: wrap;
 }
 
+.c-icon-boxes__box {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex: 0 1 100%;
+}
+
 .c-icon-boxes__icon {
 	background-color: #364156;
 	color: #FFF8F0;
@@ -119,11 +126,8 @@ h3 {
 	background-position: center;
 }
 
-/*Media Query bullshit?*/
-.c-icon-boxes__box {
-	flex: 0 1 100%;
-}
 
+/*Media Query bullshit?*/
 @media screen and (min-width: 992px) {
 	.c-icon-boxes__box {
 		flex: 0 1 calc(50% - 30px);
