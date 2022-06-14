@@ -82,11 +82,22 @@ p {
 	margin-bottom: 20px;
 }
 
+.c-header-text p {
+	font-weight: 900;
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
 .button a {
 	display: inline-block;
 	background-color: var(--blue-light);
 	padding: 15px 30px;
 	text-decoration: none;
+}
+
+li {
+	padding: 20px;
 }
 
 
@@ -203,7 +214,25 @@ p {
 	flex-wrap: wrap;
 	color: var(--blue-light);
 }
-/*Figure out dropdown menu + sizing for containers*/
+
+.c-header__left {
+	display: flex;
+	align-items: center;
+	flex: 0 1 50%;
+}
+
+.c-header__right {
+	flex: 0 1 50%;
+}
+
+.c-right__navbar {
+	display: flex;
+	flex-direction: column;
+	font-size: 24px;
+}
+
+
+/*Figure out dropdown menu + sizing for containers when smaller screen.
 
 /*Media Query bullshit?*/
 @media screen and (max-width: 991px) {
