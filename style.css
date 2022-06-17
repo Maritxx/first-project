@@ -82,7 +82,7 @@ p {
 	margin-bottom: 10px;
 }
 
-.c-header-text a {
+a.c-header-text {
 	font-weight: 900;
 	font-size: 20px;
 }
@@ -91,6 +91,7 @@ p {
 	display: inline-block;
 	background-color: var(--blue-light);
 	padding: 15px 30px;
+	transition: 0.3s ease all;
 }
 
 .c-right__navbar a {
@@ -98,6 +99,9 @@ p {
 	text-transform: uppercase;	
 }
 
+ul.menu li a:hover {
+	font-weight: 900;
+}
 
 /*Homepage*/
 .c-hero {
@@ -216,6 +220,7 @@ p {
 .c-header__left {
 	display: flex;
 	align-items: center;
+	padding: 20px;
 }
 
 .c-header__right {
@@ -243,6 +248,26 @@ ul.menu li a {
 	margin-left: 20px;
 }
 
+/*Footer*/
+.c-site-footer {
+	background-color: var(--blue-dark)
+}
+
+.c-site-footer__holder {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.c-footer-text {
+	color: var(--offwhite);
+	font-size: 14px;
+	padding: 0px 15px;
+}
+
+.c-footer-text a {
+	font-weight: 700;
+}
 
 /*Media Query bullshit?*/
 @media screen and (max-width: 991px) {
