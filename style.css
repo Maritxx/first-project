@@ -249,7 +249,7 @@ ul.menu li a {
 }
 
 /*Footer*/
-.c-site-footer {
+#c-site-footer {
 	background-color: var(--blue-dark)
 }
 
