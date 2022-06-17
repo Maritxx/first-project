@@ -262,11 +262,11 @@ ul.menu li a {
 .c-footer-text {
 	color: var(--offwhite);
 	font-size: 14px;
-	padding: 0px 15px;
 }
 
 .c-footer-text a {
 	font-weight: 700;
+	padding: 0px 15px;
 }
 
 /*Media Query bullshit?*/
