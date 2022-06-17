@@ -91,7 +91,6 @@ p {
 	display: inline-block;
 	background-color: var(--blue-light);
 	padding: 15px 30px;
-	text-decoration: none;
 }
 
 .c-right__navbar a {
@@ -221,12 +220,14 @@ p {
 
 .c-header__right {
 	display: flex;
-	justify-content: flex-end;
+	flex-direction: column;
+    justify-content: space-around;
 }
 
 .c-header-right__contact-info {
 	display: flex;
 	flex-direction: column;
+	text-align: right;
 }
 
 ul.menu {
@@ -239,6 +240,7 @@ ul.menu li {
 
 ul.menu li a {
 	display: flex;
+	margin-left: 20px;
 }
 
 
